@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 0px 50px;
+  position: fixed;
+  width: 100%;
+  background-color: var(--background);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes link-hover {
+  from {
+    color: indianred;
+  }
+  to {
+    color: var(--off-white);
+  }
+}
+
+@keyframes link-unhover {
+  from {
+    color: var(--off-white);
+  }
+  to {
+    color: indianred;
+  }
+}
+
+.navbar a {
+  animation-name: link-unhover;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.navbar a:hover {
+  animation-name: link-hover;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.navbar-home-link {
+  display: block;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}

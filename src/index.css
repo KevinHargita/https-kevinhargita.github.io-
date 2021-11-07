@@ -1,13 +1,27 @@
+:root {
+  --background: #1d2633;
+  --blue: #457b9d;
+  --light-blue: #a8dadc;
+  --off-white: #f8f7f2;
+  --red: #e63946;
+}
 body {
+  background-color: var(--background);
+  color: var(--off-white);
+  font-family: "Roboto Mono", monospace;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #44556d;
 }

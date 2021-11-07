@@ -1,0 +1,31 @@
+.personal-link {
+  padding: 10px;
+  display: inline-block;
+  animation-name: link-unhover;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.personal-link:hover {
+  animation-name: link-hover;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes link-hover {
+  from {
+    color: indianred;
+  }
+  to {
+    color: var(--off-white);
+  }
+}
+
+@keyframes link-unhover {
+  from {
+    color: var(--off-white);
+  }
+  to {
+    color: indianred;
+  }
+}

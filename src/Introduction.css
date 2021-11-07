@@ -1,0 +1,20 @@
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  height: 100vh;
+  margin: auto;
+  font-size: x-large;
+}
+.introduction > * {
+  margin: 0px;
+}
+
+.introduction-name {
+  color: indianred;
+}
+
+.introduction h2 {
+  font-size: clamp(40px, 8vw, 80px);
+}

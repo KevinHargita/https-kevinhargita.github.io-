@@ -1,0 +1,10 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.personal-links {
+  orientation: left;
+  list-style: none;
+  padding: 0;
+}

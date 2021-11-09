@@ -5,7 +5,7 @@ function Header() {
             <nav className='navbar'>
                 <div>
                     <a className='navbar-home-link' href="#">
-                        K
+                    &#123;K&#125;
                     </a>
                 </div>
                 <ol className='navbar-links'>

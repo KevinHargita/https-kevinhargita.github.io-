@@ -1,0 +1,8 @@
+.experience {
+  padding: 200px 0px;
+  margin: 0 150px auto;
+}
+
+.experience > h2 {
+  color: indianred;
+}

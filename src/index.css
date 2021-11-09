@@ -25,3 +25,9 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #44556d;
 }
+
+.content-section {
+  max-width: 1600px;
+  padding: 0px 150px;
+  margin: 0px auto;
+}

@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.17370cfe.chunk.css",
-    "main.js": "/static/js/main.084cffad.chunk.js",
-    "main.js.map": "/static/js/main.084cffad.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a6884396.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a6884396.js.map",
-    "static/js/2.f40fc355.chunk.js": "/static/js/2.f40fc355.chunk.js",
-    "static/js/2.f40fc355.chunk.js.map": "/static/js/2.f40fc355.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.17370cfe.chunk.css.map": "/static/css/main.17370cfe.chunk.css.map",
-    "static/js/2.f40fc355.chunk.js.LICENSE.txt": "/static/js/2.f40fc355.chunk.js.LICENSE.txt",
-    "static/media/at-sign.a3b3f14c.svg": "/static/media/at-sign.a3b3f14c.svg",
-    "static/media/github.9a0e44fa.svg": "/static/media/github.9a0e44fa.svg",
-    "static/media/headshot.8fae0a4e.jpg": "/static/media/headshot.8fae0a4e.jpg",
-    "static/media/linkedin.911847c2.svg": "/static/media/linkedin.911847c2.svg"
+    "main.css": "/kevin-hargita-personal-site/static/css/main.17370cfe.chunk.css",
+    "main.js": "/kevin-hargita-personal-site/static/js/main.084cffad.chunk.js",
+    "main.js.map": "/kevin-hargita-personal-site/static/js/main.084cffad.chunk.js.map",
+    "runtime-main.js": "/kevin-hargita-personal-site/static/js/runtime-main.0347cb9a.js",
+    "runtime-main.js.map": "/kevin-hargita-personal-site/static/js/runtime-main.0347cb9a.js.map",
+    "static/js/2.f40fc355.chunk.js": "/kevin-hargita-personal-site/static/js/2.f40fc355.chunk.js",
+    "static/js/2.f40fc355.chunk.js.map": "/kevin-hargita-personal-site/static/js/2.f40fc355.chunk.js.map",
+    "index.html": "/kevin-hargita-personal-site/index.html",
+    "static/css/main.17370cfe.chunk.css.map": "/kevin-hargita-personal-site/static/css/main.17370cfe.chunk.css.map",
+    "static/js/2.f40fc355.chunk.js.LICENSE.txt": "/kevin-hargita-personal-site/static/js/2.f40fc355.chunk.js.LICENSE.txt",
+    "static/media/at-sign.a3b3f14c.svg": "/kevin-hargita-personal-site/static/media/at-sign.a3b3f14c.svg",
+    "static/media/github.9a0e44fa.svg": "/kevin-hargita-personal-site/static/media/github.9a0e44fa.svg",
+    "static/media/headshot.8fae0a4e.jpg": "/kevin-hargita-personal-site/static/media/headshot.8fae0a4e.jpg",
+    "static/media/linkedin.911847c2.svg": "/kevin-hargita-personal-site/static/media/linkedin.911847c2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6884396.js",
+    "static/js/runtime-main.0347cb9a.js",
     "static/js/2.f40fc355.chunk.js",
     "static/css/main.17370cfe.chunk.css",
     "static/js/main.084cffad.chunk.js"

@@ -10,22 +10,22 @@ function Header() {
                 </div>
                 <ol className='navbar-links'>
                     <li>
-                        <a href="#">
+                        <a href="/#about">
                             About    
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/#experience">
                            Experience 
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/#projects">
                             Projects
                         </a>  
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/#contact">
                             Contact 
                         </a>
                     </li>

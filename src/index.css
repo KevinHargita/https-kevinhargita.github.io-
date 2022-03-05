@@ -1,10 +1,17 @@
 :root {
   --background: #1d2633;
+  --background-light: #2b3747;
   --blue: #457b9d;
   --light-blue: #a8dadc;
   --off-white: #f8f7f2;
-  --red: #e63946;
+  --grey-white: #bbbbba;
+  --accent: #cd5c5c;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--background);
   color: var(--off-white);
@@ -23,11 +30,15 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #44556d;
+  background: var(--background-light);
 }
 
 .content-section {
   max-width: 1600px;
-  padding: 0px 150px;
+  padding: 0px 100px;
   margin: 0px auto;
+}
+
+.content-section > * {
+  min-width: 750px;
 }

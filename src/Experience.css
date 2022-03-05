@@ -1,8 +1,68 @@
 .experience {
-  padding: 200px 0px;
-  margin: 0 150px auto;
+  padding: 100px 0px;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 .experience > h2 {
-  color: indianred;
+  color: var(--accent);
+}
+
+.experience-inner {
+  display: flex;
+  margin-top: 30px;
+}
+
+.experience-list ul{
+  padding: 20px 0px;
+  list-style: none;
+  align-self: center;
+}
+
+.experience-list ul li button{
+  border: none;
+  color: var(--off-white);
+  background-color: var(--background);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 20px;
+  font-size: small;
+  font-weight: bold;
+  font-family: "Roboto Mono", monospace;
+  transition-duration: .3s;
+}
+
+.experience-list ul li button:hover {
+  color: var(--accent);
+  background-color: var(--background-light);
+  transform: translateX(-1em)
+}
+
+.experience-list ul li button.selected-item {
+  color: var(--accent);
+}
+
+.experience-date {
+  color: var(--grey-white);
+  font-size: small;
+}
+
+.experience-description{
+  padding-left: 10px;
+  border-color: var(--grey-white);
+  border-left-style: solid;
+}
+
+.experience-responsibility {
+  font-size: small;
+  margin-bottom: 10px;
+}
+
+.experience-item.inactive-item {
+  display: none;
+}
+
+.experience-item.active-item {
+  display: block;
 }

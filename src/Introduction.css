@@ -12,7 +12,7 @@
 }
 
 .introduction-name {
-  color: indianred;
+  color: var(--accent);
 }
 
 .introduction h2 {

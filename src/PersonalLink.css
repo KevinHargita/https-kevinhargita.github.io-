@@ -14,7 +14,7 @@
 
 @keyframes link-hover {
   from {
-    color: indianred;
+    color: var(--accent);
   }
   to {
     color: var(--off-white);
@@ -26,6 +26,6 @@
     color: var(--off-white);
   }
   to {
-    color: indianred;
+    color: var(--accent);
   }
 }

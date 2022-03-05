@@ -1,24 +1,28 @@
 .about {
-  padding: 200px 0;
-  margin: 0 150px auto;
+  padding: 100px 0px;
+  margin: 0 auto;
+  max-width: 900px;
 }
 .about h2 {
-  color: indianred;
+  color: var(--accent);
 }
 
 .about-inner {
   display: grid;
   grid-template-columns: 3fr 2fr;
   gap: 50px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .skill-list {
   display: grid;
   grid-template-columns: repeat(2, 200px);
+  color: var(--grey-white);
+  list-style: circle;
 }
 
 .headshot {
-  width: 300px;
-  height: 300px;
+  width: clamp(250px, 25vw, 300px);
   border-radius: 10px;
 }

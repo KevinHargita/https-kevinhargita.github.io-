@@ -43,13 +43,13 @@ ul.projects-list {
     justify-content: end;
 }
 
-.github-link {
+.project-link {
     stroke: var(--grey-white);
     cursor: pointer;
     transition: .1s;
 }
 
-.github-link:hover {
+.project-link:hover {
     stroke: var(--accent);
 }
 
